@@ -1,0 +1,15 @@
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Persistence\bin\Debug\DinosaursWithLasers.Persistence.dll
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Persistence\bin\Debug\DinosaursWithLasers.Persistence.pdb
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Persistence\obj\Debug\ResolveAssemblyReference.cache
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Persistence\obj\Debug\DinosaursWithLasers.Persistence.dll
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Persistence\obj\Debug\DinosaursWithLasers.Persistence.pdb
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Persistence\bin\Debug\DinosaursWithLasers.Model.dll
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Persistence\bin\Debug\DinosaursWithLasers.Repository.dll
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Persistence\bin\Debug\DinosaursWithLasers.Model.pdb
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Persistence\bin\Debug\DinosaursWithLasers.Repository.pdb
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Persistence\bin\Debug\Iesi.Collections.dll
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Persistence\bin\Debug\NHibernate.dll
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Persistence\bin\Debug\Iesi.Collections.pdb
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Persistence\bin\Debug\Iesi.Collections.xml
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Persistence\bin\Debug\NHibernate.pdb
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Persistence\bin\Debug\NHibernate.xml

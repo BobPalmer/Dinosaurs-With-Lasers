@@ -1,0 +1,378 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="C8099582-0A8A-4AD3-AD73-F88EEB4AABC5/f:CategoryRepository.cs" caret="692" fromTop="6" />
+      <File id="C8099582-0A8A-4AD3-AD73-F88EEB4AABC5/f:RiderRepository.cs" caret="478" fromTop="8" />
+      <File id="F50B1C0E-2947-4D63-A0D6-AEDD3A2D6D1C/f:IRiderRepository.cs" caret="202" fromTop="7" />
+      <File id="4A5A6894-FF33-4C03-9ADD-166C34B8D9FF/f:Global.asax.cs" caret="1000" fromTop="13" />
+      <File id="4A5A6894-FF33-4C03-9ADD-166C34B8D9FF/d:Views/d:Shared/f:Site.Master" caret="1323" fromTop="21" />
+      <File id="4A5A6894-FF33-4C03-9ADD-166C34B8D9FF/d:Views/d:Home/f:Index.aspx" caret="0" fromTop="0" />
+      <File id="4A5A6894-FF33-4C03-9ADD-166C34B8D9FF/d:Content/f:Site.css" caret="383" fromTop="4" />
+      <File id="4A5A6894-FF33-4C03-9ADD-166C34B8D9FF/d:Views/d:Home/f:Dinosaurs.aspx" caret="1493" fromTop="18" />
+      <File id="4A5A6894-FF33-4C03-9ADD-166C34B8D9FF/d:Views/d:Dinosaur/f:Details.aspx" caret="529" fromTop="12" />
+      <File id="4A5A6894-FF33-4C03-9ADD-166C34B8D9FF/d:Controllers/f:HomeController.cs" caret="350" fromTop="13" />
+      <File id="9924FD70-D7FC-4DAD-A129-BA6F53816B2E/f:DinosaurPersistenceTests.cs" caret="1030" fromTop="17" />
+      <File id="4A5A6894-FF33-4C03-9ADD-166C34B8D9FF/f:Web.config" caret="1608" fromTop="2" />
+      <File id="9924FD70-D7FC-4DAD-A129-BA6F53816B2E/f:App.config" caret="751" fromTop="11" />
+      <File id="DC9B9F17-8CE0-4F35-884E-008C8FF53C26/f:Rider.cs" caret="346" fromTop="12" />
+      <File id="C8099582-0A8A-4AD3-AD73-F88EEB4AABC5/d:Mappings/f:Categories.hbm.xml" caret="627" fromTop="15" />
+      <File id="C8099582-0A8A-4AD3-AD73-F88EEB4AABC5/d:Mappings/f:Riders.hbm.xml" caret="409" fromTop="10" />
+      <File id="DC9B9F17-8CE0-4F35-884E-008C8FF53C26/f:Category.cs" caret="281" fromTop="10" />
+      <File id="DC9B9F17-8CE0-4F35-884E-008C8FF53C26/f:Dinosaur.cs" caret="252" fromTop="1" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:App.config" caret="978" fromTop="10" />
+      <File id="4A5A6894-FF33-4C03-9ADD-166C34B8D9FF/d:Views/d:Dinosaur/f:List.aspx" caret="440" fromTop="10" />
+      <File id="F50B1C0E-2947-4D63-A0D6-AEDD3A2D6D1C/f:IDinosaurRepository.cs" caret="315" fromTop="11" />
+      <File id="C8099582-0A8A-4AD3-AD73-F88EEB4AABC5/f:NHConfiguration.cs" caret="0" fromTop="0" />
+      <File id="4A5A6894-FF33-4C03-9ADD-166C34B8D9FF/d:Controllers/f:DinosaurController.cs" caret="705" fromTop="6" />
+      <File id="C8099582-0A8A-4AD3-AD73-F88EEB4AABC5/f:RepositoryBase.cs" caret="415" fromTop="16" />
+      <File id="C8099582-0A8A-4AD3-AD73-F88EEB4AABC5/d:Mappings/f:dinosaurs.hbm.xml" caret="652" fromTop="15" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5274" fromTop="13" />
+      <File id="C8099582-0A8A-4AD3-AD73-F88EEB4AABC5/f:DinosaurRepository.cs" caret="2170" fromTop="14" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:Utilities.cs" caret="300" fromTop="12" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateVsSql.cs" caret="199" fromTop="4" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5497" fromTop="18" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5497" fromTop="23" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5497" fromTop="12" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5497" fromTop="25" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5497" fromTop="10" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5497" fromTop="11" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5497" fromTop="2" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5497" fromTop="2" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5497" fromTop="9" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5497" fromTop="9" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5497" fromTop="5" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5497" fromTop="8" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5497" fromTop="11" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5497" fromTop="15" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5497" fromTop="5" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5497" fromTop="26" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5497" fromTop="5" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5497" fromTop="22" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5497" fromTop="12" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateVsSql.cs" caret="2436" fromTop="13" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateVsSql.cs" caret="302" fromTop="7" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="1800" fromTop="13" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="661" fromTop="6" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="4650" fromTop="14" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5274" fromTop="15" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateExamples.cs" caret="5274" fromTop="13" />
+      <File id="C8099582-0A8A-4AD3-AD73-F88EEB4AABC5/d:Mappings/f:dinosaurs.hbm.xml" caret="1089" fromTop="12" />
+      <File id="C8099582-0A8A-4AD3-AD73-F88EEB4AABC5/d:Mappings/f:dinosaurs.hbm.xml" caret="858" fromTop="18" />
+      <File id="C8099582-0A8A-4AD3-AD73-F88EEB4AABC5/d:Mappings/f:dinosaurs.hbm.xml" caret="175" fromTop="3" />
+      <File id="5BE30AC7-0344-44D7-95B5-722680DC0035/f:NHibernateVsSql.cs" caret="1198" fromTop="15" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="int" priority="7" />
+      <Item value="public" priority="36" />
+      <Item value="ActionResult`0" priority="0" />
+      <Item value="class" priority="9" />
+      <Item value="string" priority="16" />
+      <Item value="List" priority="8" />
+      <Item value="Dinosaur`0" priority="25" />
+      <Item value="return" priority="14" />
+      <Item value="new" priority="33" />
+      <Item value="List&lt;Dinosaur&gt;" priority="1" />
+      <Item value="void" priority="16" />
+      <Item value="Description" priority="5" />
+      <Item value="var" priority="46" />
+      <Item value="private" priority="21" />
+      <Item value="DinosaursWithLasers" priority="3" />
+      <Item value="IDinosaurRepository" priority="0" />
+      <Item value="dRepo" priority="21" />
+      <Item value="Assert`0" priority="4" />
+      <Item value="d" priority="36" />
+      <Item value="newDino" priority="3" />
+      <Item value="TestCleanup" priority="0" />
+      <Item value="if" priority="6" />
+      <Item value="testDino" priority="1" />
+      <Item value="repDino" priority="1" />
+      <Item value="Name" priority="3" />
+      <Item value="dino" priority="24" />
+      <Item value="CreateTestDino`0" priority="0" />
+      <Item value="this" priority="1" />
+      <Item value="src" priority="0" />
+      <Item value="out" priority="0" />
+      <Item value="r" priority="11" />
+      <Item value="using" priority="9" />
+      <Item value="Utilities" priority="0" />
+      <Item value="TestMethod" priority="1" />
+      <Item value="NHConfiguration`0" priority="1" />
+      <Item value="session" priority="14" />
+      <Item value="dinoId" priority="2" />
+      <Item value="EnvironmentVariableTarget`0" priority="0" />
+      <Item value="tran" priority="3" />
+      <Item value="Dinosaur" priority="1" />
+      <Item value="BoxImageUrl" priority="0" />
+      <Item value="null" priority="5" />
+      <Item value="Rider`0" priority="9" />
+      <Item value="Rider" priority="3" />
+      <Item value="Category`0" priority="18" />
+      <Item value="DinosaurRepository`0" priority="3" />
+      <Item value="cRepo" priority="2" />
+      <Item value="CategoryId" priority="0" />
+      <Item value="rRepo" priority="2" />
+      <Item value="interface" priority="1" />
+      <Item value="ICategoryRepository`0" priority="2" />
+      <Item value="IRiderRepository`0" priority="0" />
+      <Item value="Categories" priority="0" />
+      <Item value="List&lt;Category&gt;" priority="1" />
+      <Item value="_riders" priority="0" />
+      <Item value="List&lt;Rider&gt;" priority="1" />
+      <Item value="DinoBox" priority="0" />
+      <Item value="FigImageUrl" priority="0" />
+      <Item value="dTask" priority="0" />
+      <Item value="expectedSeries1" priority="0" />
+      <Item value="actualSeries1" priority="0" />
+      <Item value="expectedValor" priority="0" />
+      <Item value="actualValor" priority="0" />
+      <Item value="DinoTasks`0" priority="0" />
+      <Item value="_dinoRepo" priority="4" />
+      <Item value="catId" priority="6" />
+      <Item value="c" priority="4" />
+      <Item value="expected" priority="0" />
+      <Item value="actual" priority="0" />
+      <Item value="stop" priority="2" />
+      <Item value="ClearTestDino`0" priority="1" />
+      <Item value="ISession`0" priority="3" />
+      <Item value="_curSession" priority="4" />
+      <Item value="value" priority="0" />
+      <Item value="CurSession" priority="7" />
+      <Item value="IDisposable`0" priority="0" />
+      <Item value="Console`0" priority="3" />
+      <Item value="rider" priority="6" />
+      <Item value="CategoryRepository`0" priority="2" />
+      <Item value="cat" priority="2" />
+      <Item value="foreach" priority="7" />
+      <Item value="cats" priority="1" />
+      <Item value="IList" priority="4" />
+      <Item value="decimal" priority="1" />
+      <Item value="AccessViolationException`0" priority="1" />
+      <Item value="typeof" priority="1" />
+      <Item value="Eager" priority="1" />
+      <Item value="in" priority="1" />
+      <Item value="ref" priority="1" />
+      <Item value="Exception`0" priority="0" />
+      <Item value="TestHelpers" priority="0" />
+      <Item value="true" priority="1" />
+      <Item value="Utilities`0" priority="0" />
+      <Item value="DuplicateWaitObjectException`0" priority="0" />
+      <Item value="RiderRepository`0" priority="0" />
+      <Item value="DinosaurController`0" priority="1" />
+      <Item value="IDinosaurRepository`0" priority="1" />
+      <Item value="dinoRepo" priority="0" />
+      <Item value="dinoList" priority="2" />
+      <Item value="ViewBag" priority="2" />
+      <Item value="_catRepo" priority="0" />
+      <Item value="catRepo" priority="0" />
+      <Item value="Model" priority="3" />
+      <Item value="for" priority="0" />
+      <Item value="DefaultAutoFieldGenerator`0" priority="0" />
+      <Item value="Expression`0" priority="2" />
+      <Item value="item" priority="0" />
+      <Item value="w" priority="0" />
+      <Item value="ISessionFactoryConfiguration`0" priority="0" />
+      <Item value="Configuration`0" priority="1" />
+      <Item value="sessionFactory" priority="1" />
+      <Item value="dinosaur" priority="0" />
+      <Item value="ITransaction`0" priority="0" />
+      <Item value="Commit`0" priority="0" />
+      <Item value="_AppDomain`0" priority="0" />
+      <Item value="ISQLQuery`0" priority="0" />
+      <Item value="Guid`0" priority="0" />
+      <Item value="bool" priority="0" />
+      <Item value="Setup`0" priority="0" />
+      <Item value="SqlCommand" priority="0" />
+      <Item value="SqlConnection`0" priority="3" />
+      <Item value="SqlCommand`0" priority="1" />
+      <Item value="cmd" priority="1" />
+      <Item value="Text" priority="0" />
+      <Item value="cn" priority="1" />
+      <Item value="SqlConnection" priority="0" />
+      <Item value="SqlDataReader`0" priority="1" />
+      <Item value="SqlDataReader" priority="0" />
+      <Item value="rdr" priority="0" />
+      <Item value="Getting_A_List_Of_Items_Via_ADONet`0" priority="0" />
+      <Item value="dinos" priority="0" />
+      <Item value="allRiders" priority="0" />
+      <Item value="cmdRider" priority="0" />
+      <Item value="while" priority="0" />
+      <Item value="cnRider" priority="0" />
+      <Item value="try" priority="0" />
+      <Item value="cnDino" priority="0" />
+      <Item value="finally" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="IndexOf`0" priority="0" />
+      <Item value="Substring`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="IsNotNull`0" priority="0" />
+      <Item value="AreEqual`0" priority="3" />
+      <Item value="IsTrue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DinosaursWithLasers.Model.Dinosaur">
+      <Item value="DinosaurId" priority="6" />
+      <Item value="Name" priority="11" />
+      <Item value="BoxImageUrl" priority="3" />
+      <Item value="Categories" priority="5" />
+      <Item value="Description" priority="4" />
+      <Item value="FigImageUrl" priority="2" />
+      <Item value="Riders" priority="17" />
+      <Item value="ShortDescription" priority="1" />
+      <Item value="ThumbImageUrl" priority="1" />
+      <Item value="Weapons" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="ToString`0" priority="1" />
+      <Item value="ToInt`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DinosaursWithLasers.Persistence.NHConfiguration">
+      <Item value="SessionFactory" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ISessionFactory">
+      <Item value="OpenSession`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ISession">
+      <Item value="Get`1" priority="2" />
+      <Item value="BeginTransaction`0" priority="3" />
+      <Item value="SaveOrUpdate`0" priority="2" />
+      <Item value="QueryOver`1" priority="6" />
+      <Item value="Dispose`0" priority="0" />
+      <Item value="CreateCriteria`0" priority="1" />
+      <Item value="Close`0" priority="0" />
+      <Item value="Connection" priority="0" />
+      <Item value="Delete`0" priority="1" />
+      <Item value="Transaction" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ITransaction">
+      <Item value="Commit`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.IQueryOver`2">
+      <Item value="Where`0" priority="5" />
+      <Item value="SingleOrDefault`1" priority="1" />
+      <Item value="List`1" priority="4" />
+      <Item value="JoinQueryOver`1" priority="0" />
+      <Item value="Fetch`0" priority="6" />
+      <Item value="Inner" priority="4" />
+      <Item value="JoinAlias`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="FirstOrDefault`1" priority="3" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="Select`2" priority="0" />
+      <Item value="ToList`1" priority="3" />
+      <Item value="Count" priority="1" />
+      <Item value="Where`1" priority="0" />
+      <Item value="First`1" priority="0" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="Add`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DinosaursWithLasers.Persistence.DinosaurRepository">
+      <Item value="SaveDinosaur`0" priority="2" />
+      <Item value="GetDinosaurByName`0" priority="2" />
+      <Item value="Dispose`0" priority="1" />
+      <Item value="GetDinosaursByCategory`0" priority="0" />
+      <Item value="GetDinosaurDetailsByCategory`0" priority="0" />
+      <Item value="DeleteDinosaur`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="3" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DinosaursWithLasers.Tasks.DinoTasks">
+      <Item value="GetDinosaursByCategory`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DinosaursWithLasers.Model.Category">
+      <Item value="CategoryId" priority="2" />
+      <Item value="Dinosaurs" priority="8" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DinosaursWithLasers.Repository.IDinosaurRepository">
+      <Item value="GetDinosaurByName`0" priority="0" />
+      <Item value="GetDinosaursByCategory`0" priority="0" />
+      <Item value="GetDinosaur`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DinosaursWithLasers.Model.Rider">
+      <Item value="Name" priority="5" />
+      <Item value="FigImageUrl" priority="0" />
+      <Item value="DinoBox" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="FirstOrDefault`1" priority="0" />
+      <Item value="First`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DinosaursWithLasers.Persistence.CategoryRepository">
+      <Item value="GetAllCategories`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Criterion.Lambda.IQueryOverFetchBuilder`2">
+      <Item value="Eager" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Criterion.Lambda.IQueryOverJoinBuilder`2">
+      <Item value="JoinQueryOver`1" priority="2" />
+      <Item value="JoinAlias`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ICriteria">
+      <Item value="SetFetchMode`0" priority="0" />
+      <Item value="Add`0" priority="2" />
+      <Item value="List`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DinosaursWithLasers.Repository.ICategoryRepository">
+      <Item value="GetCategory`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NHibernate.Criterion.Expression">
+      <Item value="Eq`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NHibernate.FetchMode">
+      <Item value="Select" priority="2" />
+      <Item value="Eager" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlCommand">
+      <Item value="CommandType" priority="0" />
+      <Item value="ExecuteReader`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlConnection">
+      <Item value="Open`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlDataReader">
+      <Item value="Read`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

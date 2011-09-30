@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="75d99f9f-2cc5-42ea-a020-95c2f71bc81b" name="Bob@WOMBAT 2011-09-25 10:58:57" runUser="Wombat\Bob" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3832839d-5ba1-4dfb-ac58-71c3202ca258">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Bob_WOMBAT 2011-09-25 10_58_57">
+      <DeploymentItem filename="C:\TFS\Libraries\NHibernate\Iesi.Collections.dll" />
+      <DeploymentItem filename="C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Repository\bin\Debug\DinosaursWithLasers.Repository.dll" />
+      <DeploymentItem filename="C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Persistence\bin\Debug\DinosaursWithLasers.Persistence.dll" />
+      <DeploymentItem filename="C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Model\bin\Debug\DinosaursWithLasers.Model.dll" />
+      <DeploymentItem filename="C:\TFS\Libraries\NHibernate\NHibernate.dll" />
+      <DeploymentItem filename="C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Utilities\bin\Debug\DinosaursWithLasers.Utilities.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-09-25T10:58:57.6482239-04:00" queuing="2011-09-25T10:58:57.7574241-04:00" start="2011-09-25T10:58:57.7730242-04:00" finish="2011-09-25T10:59:01.5170307-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="4" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Should_be_able_to_change_a_dinosaur" storage="c:\tfs\projects\sandbox\dinosaurswithlasers\dinosaurswithlasers.tests.persistence\bin\debug\dinosaurswithlasers.tests.persistence.dll" id="afabcb96-071e-e508-0453-f1a6f86d79d0">
+      <Execution id="5beba90b-7553-47b5-ac46-bb6785e78a7d" />
+      <TestMethod codeBase="C:/TFS/Projects/Sandbox/DinosaursWithLasers/DinosaursWithLasers.Tests.Persistence/bin/Debug/DinosaursWithLasers.Tests.Persistence.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DinosaursWithLasers.Tests.Persistence.When_Persisting_Dinosaurs, DinosaursWithLasers.Tests.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_be_able_to_change_a_dinosaur" />
+    </UnitTest>
+    <UnitTest name="Should_be_able_to_delete_a_dinosaur" storage="c:\tfs\projects\sandbox\dinosaurswithlasers\dinosaurswithlasers.tests.persistence\bin\debug\dinosaurswithlasers.tests.persistence.dll" id="995fe0b6-05b2-aa83-d7e5-f1ea85a37a7b">
+      <Execution id="d5e13941-924d-47ef-aada-2344c2454562" />
+      <TestMethod codeBase="C:/TFS/Projects/Sandbox/DinosaursWithLasers/DinosaursWithLasers.Tests.Persistence/bin/Debug/DinosaursWithLasers.Tests.Persistence.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DinosaursWithLasers.Tests.Persistence.When_Persisting_Dinosaurs, DinosaursWithLasers.Tests.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_be_able_to_delete_a_dinosaur" />
+    </UnitTest>
+    <UnitTest name="Should_be_able_to_create_a_dinosaur" storage="c:\tfs\projects\sandbox\dinosaurswithlasers\dinosaurswithlasers.tests.persistence\bin\debug\dinosaurswithlasers.tests.persistence.dll" id="1b04369b-9623-111b-6a46-dac1ab823a02">
+      <Execution id="b5a29322-accc-4d8b-851e-8158351e580f" />
+      <TestMethod codeBase="C:/TFS/Projects/Sandbox/DinosaursWithLasers/DinosaursWithLasers.Tests.Persistence/bin/Debug/DinosaursWithLasers.Tests.Persistence.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DinosaursWithLasers.Tests.Persistence.When_Persisting_Dinosaurs, DinosaursWithLasers.Tests.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_be_able_to_create_a_dinosaur" />
+    </UnitTest>
+    <UnitTest name="Should_be_able_to_get_dinosaur_riders" storage="c:\tfs\projects\sandbox\dinosaurswithlasers\dinosaurswithlasers.tests.persistence\bin\debug\dinosaurswithlasers.tests.persistence.dll" id="60573037-4e64-a814-64ce-c6f00361d7c4">
+      <Execution id="ce8b5942-d3f0-4b57-837d-7a3ec884690d" />
+      <TestMethod codeBase="C:/TFS/Projects/Sandbox/DinosaursWithLasers/DinosaursWithLasers.Tests.Persistence/bin/Debug/DinosaursWithLasers.Tests.Persistence.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DinosaursWithLasers.Tests.Persistence.When_Persisting_Dinosaurs, DinosaursWithLasers.Tests.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_be_able_to_get_dinosaur_riders" />
+    </UnitTest>
+    <UnitTest name="Should_be_able_to_get_a_list_of_dinosaurs" storage="c:\tfs\projects\sandbox\dinosaurswithlasers\dinosaurswithlasers.tests.persistence\bin\debug\dinosaurswithlasers.tests.persistence.dll" id="92bda79d-7ef4-f07d-0f98-b87b9bb46a04">
+      <Execution id="f84351e6-21ef-4641-97df-408797511ef7" />
+      <TestMethod codeBase="C:/TFS/Projects/Sandbox/DinosaursWithLasers/DinosaursWithLasers.Tests.Persistence/bin/Debug/DinosaursWithLasers.Tests.Persistence.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DinosaursWithLasers.Tests.Persistence.When_Persisting_Dinosaurs, DinosaursWithLasers.Tests.Persistence, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Should_be_able_to_get_a_list_of_dinosaurs" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1b04369b-9623-111b-6a46-dac1ab823a02" executionId="b5a29322-accc-4d8b-851e-8158351e580f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60573037-4e64-a814-64ce-c6f00361d7c4" executionId="ce8b5942-d3f0-4b57-837d-7a3ec884690d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92bda79d-7ef4-f07d-0f98-b87b9bb46a04" executionId="f84351e6-21ef-4641-97df-408797511ef7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="995fe0b6-05b2-aa83-d7e5-f1ea85a37a7b" executionId="d5e13941-924d-47ef-aada-2344c2454562" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="afabcb96-071e-e508-0453-f1a6f86d79d0" executionId="5beba90b-7553-47b5-ac46-bb6785e78a7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b5a29322-accc-4d8b-851e-8158351e580f" testId="1b04369b-9623-111b-6a46-dac1ab823a02" testName="Should_be_able_to_create_a_dinosaur" computerName="WOMBAT" duration="00:00:01.7378796" startTime="2011-09-25T10:58:57.7730242-04:00" endTime="2011-09-25T10:58:59.7230276-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5a29322-accc-4d8b-851e-8158351e580f">
+    </UnitTestResult>
+    <UnitTestResult executionId="ce8b5942-d3f0-4b57-837d-7a3ec884690d" testId="60573037-4e64-a814-64ce-c6f00361d7c4" testName="Should_be_able_to_get_dinosaur_riders" computerName="WOMBAT" duration="00:00:00.0375178" startTime="2011-09-25T10:58:59.7230276-04:00" endTime="2011-09-25T10:58:59.7698277-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce8b5942-d3f0-4b57-837d-7a3ec884690d">
+    </UnitTestResult>
+    <UnitTestResult executionId="f84351e6-21ef-4641-97df-408797511ef7" testId="92bda79d-7ef4-f07d-0f98-b87b9bb46a04" testName="Should_be_able_to_get_a_list_of_dinosaurs" computerName="WOMBAT" duration="00:00:00.0405910" startTime="2011-09-25T10:58:59.7698277-04:00" endTime="2011-09-25T10:58:59.8166277-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f84351e6-21ef-4641-97df-408797511ef7">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;13&gt;. Actual:&lt;12&gt;. </Message>
+          <StackTrace>   at DinosaursWithLasers.Tests.Persistence.When_Persisting_Dinosaurs.Should_be_able_to_get_a_list_of_dinosaurs() in C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Tests.Persistence\DinosaurPersistenceTests.cs:line 39
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d5e13941-924d-47ef-aada-2344c2454562" testId="995fe0b6-05b2-aa83-d7e5-f1ea85a37a7b" testName="Should_be_able_to_delete_a_dinosaur" computerName="WOMBAT" duration="00:00:00.0084470" startTime="2011-09-25T10:58:59.8166277-04:00" endTime="2011-09-25T10:58:59.8322278-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5e13941-924d-47ef-aada-2344c2454562">
+    </UnitTestResult>
+    <UnitTestResult executionId="5beba90b-7553-47b5-ac46-bb6785e78a7d" testId="afabcb96-071e-e508-0453-f1a6f86d79d0" testName="Should_be_able_to_change_a_dinosaur" computerName="WOMBAT" duration="00:00:00.0183004" startTime="2011-09-25T10:58:59.8322278-04:00" endTime="2011-09-25T10:58:59.8478278-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5beba90b-7553-47b5-ac46-bb6785e78a7d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

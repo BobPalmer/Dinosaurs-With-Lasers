@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4A5A6894-FF33-4C03-9ADD-166C34B8D9FF}</ProjectGuid>
+    <ProjectTypeGuids>{E53F8FEA-EAE0-44A6-8774-FFD645390401};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DinosaursWithLasers</RootNamespace>
+    <AssemblyName>DinosaursWithLasers</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>false</UseIISExpress>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.WebPages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Helpers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DinosaurController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\images\Ankylosaurus-Front-Small.jpg" />
+    <Content Include="Content\images\badguys.jpg" />
+    <Content Include="Content\images\Brontosaurus-Front-Small.jpg" />
+    <Content Include="Content\images\ButtonDRFigure2.jpg" />
+    <Content Include="Content\images\Chasmosaurus-Front-Small.jpg" />
+    <Content Include="Content\images\Deinonychus-Front-Small.jpg" />
+    <Content Include="Content\images\DeinonychusRulon-Front-Small.jpg" />
+    <Content Include="Content\images\Dimetrodon-Front-Small.jpg" />
+    <Content Include="Content\images\DinosaursPageCollage.jpg" />
+    <Content Include="Content\images\dinoworld.png" />
+    <Content Include="Content\images\Diplodocus-Front-Small.jpg" />
+    <Content Include="Content\images\Edmontonia-Front-Small.jpg" />
+    <Content Include="Content\images\FigurePic-Algar.jpg" />
+    <Content Include="Content\images\FigurePic-Antor.jpg" />
+    <Content Include="Content\images\FigurePic-Aries.jpg" />
+    <Content Include="Content\images\FigurePic-Atlas.jpg" />
+    <Content Include="Content\images\FigurePic-Axis.jpg" />
+    <Content Include="Content\images\FigurePic-Ayce.jpg" />
+    <Content Include="Content\images\FigurePic-Bitor.jpg" />
+    <Content Include="Content\images\FigurePic-Cobrus.jpg" />
+    <Content Include="Content\images\FigurePic-Grom.jpg" />
+    <Content Include="Content\images\FigurePic-Gunnur.jpg" />
+    <Content Include="Content\images\FigurePic-Hammerhead.jpg" />
+    <Content Include="Content\images\FigurePic-Ion.jpg" />
+    <Content Include="Content\images\FigurePic-Kanon.jpg" />
+    <Content Include="Content\images\FigurePic-Krok.jpg" />
+    <Content Include="Content\images\FigurePic-Krulos.jpg" />
+    <Content Include="Content\images\FigurePic-Kub.jpg" />
+    <Content Include="Content\images\FigurePic-Llahd.jpg" />
+    <Content Include="Content\images\FigurePic-Llava.jpg" />
+    <Content Include="Content\images\FigurePic-Lokus.jpg" />
+    <Content Include="Content\images\FigurePic-Magnus.jpg" />
+    <Content Include="Content\images\FigurePic-Mako.jpg" />
+    <Content Include="Content\images\FigurePic-Mind-Zei.jpg" />
+    <Content Include="Content\images\FigurePic-Nimbus.jpg" />
+    <Content Include="Content\images\FigurePic-Questar.jpg" />
+    <Content Include="Content\images\FigurePic-Rasp.jpg" />
+    <Content Include="Content\images\FigurePic-Serena.jpg" />
+    <Content Include="Content\images\FigurePic-Shado.jpg" />
+    <Content Include="Content\images\FigurePic-Sidewinder.jpg" />
+    <Content Include="Content\images\FigurePic-Skate.jpg" />
+    <Content Include="Content\images\FigurePic-Sky.jpg" />
+    <Content Include="Content\images\FigurePic-Sting.jpg" />
+    <Content Include="Content\images\FigurePic-Tagg.jpg" />
+    <Content Include="Content\images\FigurePic-Tark.jpg" />
+    <Content Include="Content\images\FigurePic-Turret.jpg" />
+    <Content Include="Content\images\FigurePic-Ulk.jpg" />
+    <Content Include="Content\images\FigurePic-Vega.jpg" />
+    <Content Include="Content\images\FigurePic-Yungstar.jpg" />
+    <Content Include="Content\images\FigurePic-Zar.jpg" />
+    <Content Include="Content\images\Giant-Ground-Sloth-Front-Small2.jpg" />
+    <Content Include="Content\images\goodguys.jpg" />
+    <Content Include="Content\images\iceage.jpg" />
+    <Content Include="Content\images\InfoPic-Ankylosaurus.jpg" />
+    <Content Include="Content\images\InfoPic-Brontosaurus.jpg" />
+    <Content Include="Content\images\InfoPic-Chasmosaurus.jpg" />
+    <Content Include="Content\images\InfoPic-Deinonychus-DR.jpg" />
+    <Content Include="Content\images\InfoPic-Deinonychus-Rulon.jpg" />
+    <Content Include="Content\images\InfoPic-Dimetrodon.jpg" />
+    <Content Include="Content\images\InfoPic-Diplodocus.jpg" />
+    <Content Include="Content\images\InfoPic-Edmontonia.jpg" />
+    <Content Include="Content\images\InfoPic-GiantGroundSloth.jpg" />
+    <Content Include="Content\images\InfoPic-Kentrosaurus.jpg" />
+    <Content Include="Content\images\InfoPic-KillerWartHog.jpg" />
+    <Content Include="Content\images\InfoPic-Monoclonius.jpg" />
+    <Content Include="Content\images\InfoPic-Pachycephalosaurus.jpg" />
+    <Content Include="Content\images\InfoPic-Pachyrhinosaurus.jpg" />
+    <Content Include="Content\images\InfoPic-Placerias.jpg" />
+    <Content Include="Content\images\InfoPic-Protoceratops.jpg" />
+    <Content Include="Content\images\InfoPic-Pteranodon.jpg" />
+    <Content Include="Content\images\InfoPic-Pterodactyl.jpg" />
+    <Content Include="Content\images\InfoPic-Quetzalcoatlus-DR.jpg" />
+    <Content Include="Content\images\InfoPic-Quetzalcoatlus-Rulon.jpg" />
+    <Content Include="Content\images\InfoPic-SabreToothTiger.jpg" />
+    <Content Include="Content\images\InfoPic-Saurolophus.jpg" />
+    <Content Include="Content\images\InfoPic-Stegosaurus.jpg" />
+    <Content Include="Content\images\InfoPic-Struthiomimus.jpg" />
+    <Content Include="Content\images\InfoPic-Styracosaurus.jpg" />
+    <Content Include="Content\images\InfoPic-Torosaurus.jpg" />
+    <Content Include="Content\images\InfoPic-Triceratops.jpg" />
+    <Content Include="Content\images\InfoPic-TyrannosaurusRex.jpg" />
+    <Content Include="Content\images\InfoPic-WoolyMammoth.jpg" />
+    <Content Include="Content\images\Kentrosaurus-Front-Small.jpg" />
+    <Content Include="Content\images\Killer-Wart-Hog-Front-Small.jpg" />
+    <Content Include="Content\images\Monoclonius-Front-Small.jpg" />
+    <Content Include="Content\images\NavigationPic-Ankylosaurus.jpg" />
+    <Content Include="Content\images\NavigationPic-Brontosaurus.jpg" />
+    <Content Include="Content\images\NavigationPic-Chasmosaurus.jpg" />
+    <Content Include="Content\images\NavigationPic-Deinonychus-DR.jpg" />
+    <Content Include="Content\images\NavigationPic-Deinonychus-Rulon.jpg" />
+    <Content Include="Content\images\NavigationPic-Dimetrodon.jpg" />
+    <Content Include="Content\images\NavigationPic-Diplodocus.jpg" />
+    <Content Include="Content\images\NavigationPic-Edmontonia.jpg" />
+    <Content Include="Content\images\NavigationPic-GiantGroundSloth.jpg" />
+    <Content Include="Content\images\NavigationPic-Kentrosaurus.jpg" />
+    <Content Include="Content\images\NavigationPic-KillerWartHog.jpg" />
+    <Content Include="Content\images\NavigationPic-Monoclonius.jpg" />
+    <Content Include="Content\images\NavigationPic-Pachycephalosaurus.jpg" />
+    <Content Include="Content\images\NavigationPic-Pachyrhinosaurus.jpg" />
+    <Content Include="Content\images\NavigationPic-Placerias.jpg" />
+    <Content Include="Content\images\NavigationPic-Protoceratops.jpg" />
+    <Content Include="Content\images\NavigationPic-Pteranodon.jpg" />
+    <Content Include="Content\images\NavigationPic-Pterodactyl.jpg" />
+    <Content Include="Content\images\NavigationPic-Quetzalcoatlus-DR.jpg" />
+    <Content Include="Content\images\NavigationPic-Quetzalcoatlus-Rulon.jpg" />
+    <Content Include="Content\images\NavigationPic-SabreToothTiger.jpg" />
+    <Content Include="Content\images\NavigationPic-Saurolophus.jpg" />
+    <Content Include="Content\images\NavigationPic-Stegosaurus.jpg" />
+    <Content Include="Content\images\NavigationPic-Struthiomimus.jpg" />
+    <Content Include="Content\images\NavigationPic-Styracosaurus.jpg" />
+    <Content Include="Content\images\NavigationPic-Torosaurus.jpg" />
+    <Content Include="Content\images\NavigationPic-Triceratops.jpg" />
+    <Content Include="Content\images\NavigationPic-Tyrannosaurus.jpg" />
+    <Content Include="Content\images\NavigationPic-WoolyMammoth.jpg" />
+    <Content Include="Content\images\Pachycephalosaurus-Front-Small.jpg" />
+    <Content Include="Content\images\Pachyrhinosaurus-Front-Small.jpg" />
+    <Content Include="Content\images\Placerias-Front-Small.jpg" />
+    <Content Include="Content\images\Protoceratops-Front-Small.jpg" />
+    <Content Include="Content\images\Pteranodon-Front-Small.jpg" />
+    <Content Include="Content\images\Pterodactyl-Front-Small.jpg" />
+    <Content Include="Content\images\Quetlzalcoatlus-Rulon-Front-Small.jpg" />
+    <Content Include="Content\images\Quetzalcoatlus-DR-Front-Small.jpg" />
+    <Content Include="Content\images\Sabre-Tooth-Tiger-Front-Small.jpg" />
+    <Content Include="Content\images\Saurolophus-Front-Small.jpg" />
+    <Content Include="Content\images\series1.jpg" />
+    <Content Include="Content\images\series2.jpg" />
+    <Content Include="Content\images\series3.jpg" />
+    <Content Include="Content\images\Stegosaurus-Front-Small.jpg" />
+    <Content Include="Content\images\Struthiomimus-Front-Small.jpg" />
+    <Content Include="Content\images\Styracosaurus-Front-Small.jpg" />
+    <Content Include="Content\images\Torosaurus-Front-Small.jpg" />
+    <Content Include="Content\images\Triceratops-Front-Small.jpg" />
+    <Content Include="Content\images\Tyrannosaurus-Front-Small.jpg" />
+    <Content Include="Content\images\Wooly-Mammoth-Front-Small.jpg" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.5.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.5.1.js" />
+    <Content Include="Scripts\jquery-1.5.1.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.11.js" />
+    <Content Include="Scripts\jquery-ui-1.8.11.min.js" />
+    <Content Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\modernizr-1.7.js" />
+    <Content Include="Scripts\modernizr-1.7.min.js" />
+    <Content Include="Views\Dinosaur\Details.aspx" />
+    <Content Include="Views\Dinosaur\List.aspx" />
+    <Content Include="Views\Home\Dinosaurs.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\MicrosoftAjax.js" />
+    <Content Include="Scripts\MicrosoftAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
+    <Content Include="Views\Account\ChangePassword.aspx" />
+    <Content Include="Views\Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Views\Account\LogOn.aspx" />
+    <Content Include="Views\Account\Register.aspx" />
+    <Content Include="Views\Home\About.aspx" />
+    <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Shared\Error.aspx" />
+    <Content Include="Views\Shared\LogOnUserControl.ascx" />
+    <Content Include="Views\Shared\Site.Master" />
+    <Content Include="Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DinosaursWithLasers.Model\DinosaursWithLasers.Model.csproj">
+      <Project>{DC9B9F17-8CE0-4F35-884E-008C8FF53C26}</Project>
+      <Name>DinosaursWithLasers.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DinosaursWithLasers.Persistence\DinosaursWithLasers.Persistence.csproj">
+      <Project>{C8099582-0A8A-4AD3-AD73-F88EEB4AABC5}</Project>
+      <Name>DinosaursWithLasers.Persistence</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DinosaursWithLasers.Repository\DinosaursWithLasers.Repository.csproj">
+      <Project>{F50B1C0E-2947-4D63-A0D6-AEDD3A2D6D1C}</Project>
+      <Name>DinosaursWithLasers.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3681</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,5 @@
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Utilities\bin\Debug\DinosaursWithLasers.Utilities.dll
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Utilities\bin\Debug\DinosaursWithLasers.Utilities.pdb
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Utilities\obj\Debug\ResolveAssemblyReference.cache
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Utilities\obj\Debug\DinosaursWithLasers.Utilities.dll
+C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Utilities\obj\Debug\DinosaursWithLasers.Utilities.pdb

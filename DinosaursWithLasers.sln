@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinosaursWithLasers.web", "DinosaursWithLasers.web\DinosaursWithLasers.web.csproj", "{4A5A6894-FF33-4C03-9ADD-166C34B8D9FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinosaursWithLasers.Persistence", "DinosaursWithLasers.Persistence\DinosaursWithLasers.Persistence.csproj", "{C8099582-0A8A-4AD3-AD73-F88EEB4AABC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinosaursWithLasers.Model", "DinosaursWithLasers.Model\DinosaursWithLasers.Model.csproj", "{DC9B9F17-8CE0-4F35-884E-008C8FF53C26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinosaursWithLasers.Repository", "DinosaursWithLasers.Repository\DinosaursWithLasers.Repository.csproj", "{F50B1C0E-2947-4D63-A0D6-AEDD3A2D6D1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinosaursWithLasers.Tests.Persistence", "DinosaursWithLasers.Tests.Persistence\DinosaursWithLasers.Tests.Persistence.csproj", "{9924FD70-D7FC-4DAD-A129-BA6F53816B2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{319B9123-F438-4380-8F98-6A1C060D8B7C}"
+	ProjectSection(SolutionItems) = preProject
+		DinosaursWithLasers.vsmdi = DinosaursWithLasers.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinosaursWithLasers.Utilities", "DinosaursWithLasers.Utilities\DinosaursWithLasers.Utilities.csproj", "{4EAFE563-B124-4F28-8AE5-BB79C2B31D60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F592548E-0600-4A92-9CB2-52C9AB837271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinosaursWithLasers.TestHelpers", "DinosaursWithLasers.TestHelpers\DinosaursWithLasers.TestHelpers.csproj", "{5BE30AC7-0344-44D7-95B5-722680DC0035}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DEMOS", "DEMOS", "{D830C92E-E53D-48C6-9686-4C3FA93567C6}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://skunk:8080/tfs/skunkfoundry
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DinosaursWithLasers.web\\DinosaursWithLasers.web.csproj
+		SccProjectName1 = DinosaursWithLasers.web
+		SccLocalPath1 = DinosaursWithLasers.web
+		SccProjectUniqueName2 = DinosaursWithLasers.Persistence\\DinosaursWithLasers.Persistence.csproj
+		SccProjectName2 = DinosaursWithLasers.Persistence
+		SccLocalPath2 = DinosaursWithLasers.Persistence
+		SccProjectUniqueName3 = DinosaursWithLasers.Model\\DinosaursWithLasers.Model.csproj
+		SccProjectName3 = DinosaursWithLasers.Model
+		SccLocalPath3 = DinosaursWithLasers.Model
+		SccProjectUniqueName4 = DinosaursWithLasers.Repository\\DinosaursWithLasers.Repository.csproj
+		SccProjectName4 = DinosaursWithLasers.Repository
+		SccLocalPath4 = DinosaursWithLasers.Repository
+		SccProjectUniqueName5 = DinosaursWithLasers.Tests.Persistence\\DinosaursWithLasers.Tests.Persistence.csproj
+		SccProjectTopLevelParentUniqueName5 = DinosaursWithLasers.sln
+		SccProjectName5 = DinosaursWithLasers.Tests.Persistence
+		SccLocalPath5 = DinosaursWithLasers.Tests.Persistence
+		SccProjectUniqueName6 = DinosaursWithLasers.Utilities\\DinosaursWithLasers.Utilities.csproj
+		SccProjectName6 = DinosaursWithLasers.Utilities
+		SccLocalPath6 = DinosaursWithLasers.Utilities
+		SccProjectUniqueName7 = DinosaursWithLasers.TestHelpers\\DinosaursWithLasers.TestHelpers.csproj
+		SccProjectTopLevelParentUniqueName7 = DinosaursWithLasers.sln
+		SccProjectName7 = DinosaursWithLasers.TestHelpers
+		SccLocalPath7 = DinosaursWithLasers.TestHelpers
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DinosaursWithLasers.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A5A6894-FF33-4C03-9ADD-166C34B8D9FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A5A6894-FF33-4C03-9ADD-166C34B8D9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A5A6894-FF33-4C03-9ADD-166C34B8D9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A5A6894-FF33-4C03-9ADD-166C34B8D9FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8099582-0A8A-4AD3-AD73-F88EEB4AABC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8099582-0A8A-4AD3-AD73-F88EEB4AABC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8099582-0A8A-4AD3-AD73-F88EEB4AABC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8099582-0A8A-4AD3-AD73-F88EEB4AABC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC9B9F17-8CE0-4F35-884E-008C8FF53C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9B9F17-8CE0-4F35-884E-008C8FF53C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC9B9F17-8CE0-4F35-884E-008C8FF53C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC9B9F17-8CE0-4F35-884E-008C8FF53C26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F50B1C0E-2947-4D63-A0D6-AEDD3A2D6D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F50B1C0E-2947-4D63-A0D6-AEDD3A2D6D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F50B1C0E-2947-4D63-A0D6-AEDD3A2D6D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F50B1C0E-2947-4D63-A0D6-AEDD3A2D6D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9924FD70-D7FC-4DAD-A129-BA6F53816B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9924FD70-D7FC-4DAD-A129-BA6F53816B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9924FD70-D7FC-4DAD-A129-BA6F53816B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9924FD70-D7FC-4DAD-A129-BA6F53816B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EAFE563-B124-4F28-8AE5-BB79C2B31D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EAFE563-B124-4F28-8AE5-BB79C2B31D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EAFE563-B124-4F28-8AE5-BB79C2B31D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EAFE563-B124-4F28-8AE5-BB79C2B31D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE30AC7-0344-44D7-95B5-722680DC0035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE30AC7-0344-44D7-95B5-722680DC0035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE30AC7-0344-44D7-95B5-722680DC0035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE30AC7-0344-44D7-95B5-722680DC0035}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9924FD70-D7FC-4DAD-A129-BA6F53816B2E} = {F592548E-0600-4A92-9CB2-52C9AB837271}
+		{5BE30AC7-0344-44D7-95B5-722680DC0035} = {D830C92E-E53D-48C6-9686-4C3FA93567C6}
+	EndGlobalSection
+EndGlobal

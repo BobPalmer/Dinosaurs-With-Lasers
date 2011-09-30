@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+  assembly="DinosaursWithLasers.Model"
+  namespace="DinosaursWithLasers.Model">
+  <class name="Dinosaur" table="Dinosaurs" dynamic-update="true">
+    <id name="DinosaurId">
+      <generator class="hilo"/>
+    </id>
+    <property name ="Name" />
+    <property name ="FigImageUrl" />
+    <property name ="BoxImageUrl" />
+    <property name ="ThumbImageUrl" />
+    <property name ="Description" length="400"/>
+    <idbag name="Categories" table="DinosaurCategories" >
+      <collection-id column="id" type="int">
+        <generator class="hilo"/>
+      </collection-id>
+      <key column="DinosaurId"/>
+      <many-to-many column="CategoryId" class="Category" />
+    </idbag>
+    <bag name="Riders" table="DinoRiders" cascade="all-delete-orphan" >
+      <key column="DinosaurId"/>
+      <one-to-many class="Rider"/>
+    </bag>
+    <bag name="Weapons" table="DinoWeapons">
+      <key column="DinosaurId" />
+      <element column="Weapon" type="System.String" />
+    </bag>
+  </class>
+</hibernate-mapping>

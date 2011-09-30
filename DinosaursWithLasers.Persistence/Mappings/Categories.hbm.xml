@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+  assembly="DinosaursWithLasers.Model"
+  namespace="DinosaursWithLasers.Model">
+  <class name="Category" table="Categories" dynamic-update="true">
+    <id name="CategoryId">
+      <generator class="assigned"/>
+    </id>
+    <property name ="Name" />
+    <idbag name="Dinosaurs" table="DinosaurCategories" >
+      <collection-id column="id" type="int">
+        <generator class="hilo"/>
+      </collection-id>
+      <key column="CategoryId"/>
+      <many-to-many column="DinosaurId" class="Dinosaur" />
+    </idbag>    
+  </class>
+</hibernate-mapping>
