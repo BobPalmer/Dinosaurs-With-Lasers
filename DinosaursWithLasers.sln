@@ -27,35 +27,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DEMOS", "DEMOS", "{D830C92E-E53D-48C6-9686-4C3FA93567C6}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 8
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://skunk:8080/tfs/skunkfoundry
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = DinosaursWithLasers.web\\DinosaursWithLasers.web.csproj
-		SccProjectName1 = DinosaursWithLasers.web
-		SccLocalPath1 = DinosaursWithLasers.web
-		SccProjectUniqueName2 = DinosaursWithLasers.Persistence\\DinosaursWithLasers.Persistence.csproj
-		SccProjectName2 = DinosaursWithLasers.Persistence
-		SccLocalPath2 = DinosaursWithLasers.Persistence
-		SccProjectUniqueName3 = DinosaursWithLasers.Model\\DinosaursWithLasers.Model.csproj
-		SccProjectName3 = DinosaursWithLasers.Model
-		SccLocalPath3 = DinosaursWithLasers.Model
-		SccProjectUniqueName4 = DinosaursWithLasers.Repository\\DinosaursWithLasers.Repository.csproj
-		SccProjectName4 = DinosaursWithLasers.Repository
-		SccLocalPath4 = DinosaursWithLasers.Repository
-		SccProjectUniqueName5 = DinosaursWithLasers.Tests.Persistence\\DinosaursWithLasers.Tests.Persistence.csproj
-		SccProjectTopLevelParentUniqueName5 = DinosaursWithLasers.sln
-		SccProjectName5 = DinosaursWithLasers.Tests.Persistence
-		SccLocalPath5 = DinosaursWithLasers.Tests.Persistence
-		SccProjectUniqueName6 = DinosaursWithLasers.Utilities\\DinosaursWithLasers.Utilities.csproj
-		SccProjectName6 = DinosaursWithLasers.Utilities
-		SccLocalPath6 = DinosaursWithLasers.Utilities
-		SccProjectUniqueName7 = DinosaursWithLasers.TestHelpers\\DinosaursWithLasers.TestHelpers.csproj
-		SccProjectTopLevelParentUniqueName7 = DinosaursWithLasers.sln
-		SccProjectName7 = DinosaursWithLasers.TestHelpers
-		SccLocalPath7 = DinosaursWithLasers.TestHelpers
-	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = DinosaursWithLasers.vsmdi
 	EndGlobalSection
