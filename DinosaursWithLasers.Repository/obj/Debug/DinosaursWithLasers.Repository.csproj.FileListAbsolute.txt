@@ -1,7 +1,0 @@
-C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Repository\bin\Debug\DinosaursWithLasers.Repository.dll
-C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Repository\bin\Debug\DinosaursWithLasers.Repository.pdb
-C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Repository\obj\Debug\ResolveAssemblyReference.cache
-C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Repository\obj\Debug\DinosaursWithLasers.Repository.dll
-C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Repository\obj\Debug\DinosaursWithLasers.Repository.pdb
-C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Repository\bin\Debug\DinosaursWithLasers.Model.dll
-C:\TFS\Projects\Sandbox\DinosaursWithLasers\DinosaursWithLasers.Repository\bin\Debug\DinosaursWithLasers.Model.pdb
