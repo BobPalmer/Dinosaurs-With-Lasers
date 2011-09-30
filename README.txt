@@ -1,0 +1,4 @@
+- Be sure to change App.Config to reflect your local SQL database
+- The demo code is in the DEMOS solution folder
+- This is not meant to be a model MVC app ;)  Much hackery ensued - this is just to show you some very basic NHibernate code.
+- Don't run with scissors.
