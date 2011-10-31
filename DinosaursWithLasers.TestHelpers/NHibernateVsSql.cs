@@ -9,10 +9,15 @@ namespace DinosaursWithLasers.TestHelpers
 {
     public class NHibernateVsSql
     {
+        private NHibernateVsSql()
+        {
+            log4net.Config.XmlConfigurator.Configure();
+        }
+
         public void RunSamples()
         {
-            var dinos = Getting_A_List_Of_Items_Via_Databinding();
-            //var dinos = Getting_A_List_Of_Items_Via_ADONet();
+            //var dinos = Getting_A_List_Of_Items_Via_Databinding();
+            var dinos = Getting_A_List_Of_Items_Via_ADONet();
             //var dinos = Getting_A_List_Of_Items_Via_NHibernate();
 
             //Show a list of dinosaurs information

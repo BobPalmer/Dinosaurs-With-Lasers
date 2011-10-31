@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<DinosaursWithLasers.Model.Dinosaur>" %>
+<%@ Import Namespace="DinosaursWithLasers.Utilities" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
     Details
@@ -20,21 +21,25 @@
 
     <div class="figlist" >
         <div class="weaponList">
-            <h2>Weapons:</h2>
-            <ul>
-                <% foreach (var w in Model.Weapons) {%>
-                    <li><%=w%></li>
-                <% } %>
-            </ul>
+            <h2>Weapons:</h2>           
+            <%=Html.QuickList(Model.Weapons)%>
         </div>
 
-    <% foreach (var r in Model.Riders)
-       {%>
-    <div class="darkBox">
-        <%=r.Name%><br />
-        <img src="<%=r.FigImageUrl%>" style="height: 150px;"/>
+        <% Html.RenderPartial("RiderImageList",Model.Riders); %>
+
     </div>
-    <% } %>
+    <div>
+        <button id="btnDino">Find Similar Dinosaurs</button>
     </div>
-   
+    <div id="dinoList"></div>
+
+    <script type="text/javascript">
+        $(function() {
+            $('#btnDino').click(function () {
+                $.getJSON("/Dinosaur/GetSimilarDinosaurs/<%=Model.DinosaurId %>", null, function (data) {
+                    $("#dinoList").html(data);
+                });
+             });
+        });
+    </script>
 </asp:Content>

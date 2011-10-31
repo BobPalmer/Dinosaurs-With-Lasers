@@ -23,36 +23,47 @@ namespace DinosaursWithLasers.TestHelpers
         {
             Setup();
             //AddingARecord();
+            //AddingBatchRecords();
             //FindingAndEditing();
-            //DeletingRecords();
+            //
+            
+           DeletingRecords();
         }
 
         private void Setup()
         {
+            try
+            {
+                Configuration config = new Configuration().Configure();
+                ISessionFactory sessionFactory = config.BuildSessionFactory();
+
+                //Create a Session from the factory - These are a lot lighter weight,
+                //best practice is one per web page or one per form (so you get caching and
+                //whatnot... but use in whatever way makes sense for your app.
+
+                session = sessionFactory.OpenSession();
+            }
+            catch (Exception ex)
+            {
+             
+                throw ex;
+            }
             //Setting up our connectivity 
             //Make sure you make only ONE of these!
-            Configuration config = new Configuration().Configure();
-            ISessionFactory sessionFactory = config.BuildSessionFactory();
 
-            //Create a Session from the factory - These are a lot lighter weight,
-            //best practice is one per web page or one per form (so you get caching and
-            //whatnot... but use in whatever way makes sense for your app.
-
-            session = sessionFactory.OpenSession();
         }
 
         private void AddingARecord()
         {
             //Let's make us a dinosaur! 
             Dinosaur dino = new Dinosaur
-                                {
-                                    Name = "AwesomeSaurus Rex",
-                                    Description = "SAMPLE DINO"
-                                };
-            
+            {
+                Name = "AwesomeSaurus Rex",
+                Description = "SAMPLE DINO"
+            };
+
             //Persisting is a cakewalk. We'll just need to wrap 
             //this up in a transaction since we're updating the database.  
-
             using (ITransaction tran = session.BeginTransaction())
             {
                 session.SaveOrUpdate(dino);
@@ -60,6 +71,25 @@ namespace DinosaursWithLasers.TestHelpers
             }
         }
 
+        private void AddingBatchRecords()
+        {
+            using (ITransaction tran = session.BeginTransaction())
+            {
+                for (int i = 0; i < 10; i++) //<--- Holy crap!  TEN dinosaurs!
+                {
+                    //Let's make us a dinosaur! 
+                    Dinosaur dino = new Dinosaur
+                    {
+                        Name = "BatchaSaurus Rex",
+                        Description = "SAMPLE DINO"
+                    };
+
+                    session.SaveOrUpdate(dino);
+                }
+                tran.Commit();
+            }
+        }
+        
         private void FindingAndEditing()
         {
             //Finding records by their primary keys is super easy...
@@ -122,17 +152,17 @@ namespace DinosaursWithLasers.TestHelpers
             //did by hand in demo 1 and moving it into our repository
             var dRepo = new DinosaurRepository();
             var dino = dRepo.GetDinosaurByName("Tyrannosaurus Rex");
-            dRepo.Dispose();  //<-- Observing a property in the debugger will make it lazy load!
-            //var rider = dino.Riders.First(); //<-- Touching a property will cause lazy loading
             //dRepo.Dispose();  //<-- Observing a property in the debugger will make it lazy load!
+            var rider = dino.Riders.First(); //<-- Touching a property will cause lazy loading
+            dRepo.Dispose();  //<-- Observing a property in the debugger will make it lazy load!
         }
 
         private void Demo_03_N_Plus_One()
         {
             var dRepo = new DinosaurRepository();
 
-            foreach (var dino in dRepo.GetAllDinosaurs()) //<-- Using Lazy Loading - N+1 Sadness ensues
-            //foreach (var dino in dRepo.GetDinosaurRiders()) //<- - Using Eager Loading - Unicorns and Sunshine!
+            //foreach (var dino in dRepo.GetAllDinosaurs()) //<-- Using Lazy Loading - N+1 Sadness ensues
+            foreach (var dino in dRepo.GetDinosaurRiders()) //<- - Using Eager Loading - Unicorns and Sunshine!
             {
                 foreach (var rider in dino.Riders)
                 {

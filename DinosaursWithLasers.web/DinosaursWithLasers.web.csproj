@@ -255,6 +255,8 @@
     <Content Include="Views\Dinosaur\Details.aspx" />
     <Content Include="Views\Dinosaur\List.aspx" />
     <Content Include="Views\Home\Dinosaurs.aspx" />
+    <Content Include="Views\Shared\RiderImageList.ascx" />
+    <Content Include="Views\Shared\Test.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -302,6 +304,10 @@
     <ProjectReference Include="..\DinosaursWithLasers.Repository\DinosaursWithLasers.Repository.csproj">
       <Project>{F50B1C0E-2947-4D63-A0D6-AEDD3A2D6D1C}</Project>
       <Name>DinosaursWithLasers.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DinosaursWithLasers.Utilities\DinosaursWithLasers.Utilities.csproj">
+      <Project>{4EAFE563-B124-4F28-8AE5-BB79C2B31D60}</Project>
+      <Name>DinosaursWithLasers.Utilities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

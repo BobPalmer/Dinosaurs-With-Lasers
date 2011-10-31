@@ -21,11 +21,6 @@ namespace DinosaursWithLasers
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute(
-                "DinoList", // Route name
-                "Dinosaur/List/{catid}", // URL with parameters
-                new { controller = "Dinosaur", action = "List", catid = "" } // Parameter defaults
-            );
 
             routes.MapRoute(
                 "Default", // Route name

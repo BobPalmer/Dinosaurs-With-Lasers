@@ -57,7 +57,7 @@ namespace DinosaursWithLasers.Persistence
         public IList<Dinosaur> GetAllDinosaurs()
         {
             var dinoList = CurSession.QueryOver<Dinosaur>()
-                    .List().ToList();
+                .List();
             return dinoList;
         }
 

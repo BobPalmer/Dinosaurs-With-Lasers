@@ -18,7 +18,7 @@
       <key column="DinosaurId"/>
       <many-to-many column="CategoryId" class="Category" />
     </idbag>
-    <bag name="Riders" table="DinoRiders" cascade="all-delete-orphan" >
+    <bag name="Riders" table="Riders" cascade="all-delete-orphan" >
       <key column="DinosaurId"/>
       <one-to-many class="Rider"/>
     </bag>
